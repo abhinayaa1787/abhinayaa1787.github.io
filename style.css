@@ -6,10 +6,12 @@
 
 }
 
-.card:hover {
+.card:hover{
   box-shadow: 30px  10px 30px rgb(216, 214, 214);
   transform: scale(1.1);
-
+}
+.button:hover{
+  box-shadow: 5px  5px 5px rgb(185, 86, 185);
 
 }
 
