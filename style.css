@@ -6,6 +6,13 @@
 
 }
 
+.card:hover {
+  box-shadow: 30px  10px 30px rgb(216, 214, 214);
+  transform: scale(1.1);
+
+
+}
+
 h4{
   margin:10px;
 }
@@ -30,5 +37,86 @@ a:hover{
 }
 #pagebtnDiv{
   float:right;
+
+}
+#about{
+margin:100px 100px 100px 250px;
+width:60%;
+height:80%;
+border:none;
+}
+p{
+  line-height:2em;
+
+}
+#myimg{
+  float:left;
+  width:20%;
+  margin-bottom:5px;
+  margin-right:20px;    
+}
+#img{
+width:100%;
+border-radius:50%;
+/* margin-bottom:10px;
+margin-right:10px; */
+}
+span{
+  color: rgb(104, 46, 104);
+}
+footer{
+  text-align:center;
+  padding:80px 80px 0 80px;
+}
+h4{
+  text-align: center;
+  /* text-decoration: underline; */
+}
+h5{
+  text-align: center;
+}
+#contact{
+  width:960px;
+  border: 1px solid #666666;
+  margin:0px 100px 100px 250px;
+  /* margin-top:25px; */
+  border:none;
+  padding:30px;
+}
+input,textarea{
+  margin-left:20px;
+}
+input:focus, textarea:focus,input:hover, textarea:hover {
   
+  outline: none !important;
+  border:1px solid  rgb(104, 46, 104);;
+  box-shadow: 10px  10px 10px rgb(216, 214, 214);
+}
+
+#submit{
+  background-color:white;
+}
+#submit:hover{
+  /* background-color: rgb(104, 46, 104); */
+  border:1px solid  rgb(104, 46, 104);
+  box-shadow: 10px  10px 10px rgb(216, 214, 214);
+
+}
+#skills{
+  display:inline;
+  padding:30px;
+}
+#techSkills{
+  margin: 10px 100px 100px 300px;
+  border:none;
+   padding-right:15px; 
+
+}
+#softSkills{
+  margin: 10px 100px 100px 50px;
+   line-height:2.7em; 
+  border:none;
+  padding:30px;
+
+
 }
