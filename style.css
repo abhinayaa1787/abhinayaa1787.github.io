@@ -80,13 +80,12 @@ h5{
 #contact{
   width:960px;
   border: 1px solid #666666;
-  margin:0px 100px 100px 250px;
+  margin:0px 100px 100px 200px;
   /* margin-top:25px; */
   border:none;
   padding:30px;
-}
-input,textarea{
-  margin-left:20px;
+  text-align:center;
+
 }
 input:focus, textarea:focus,input:hover, textarea:hover {
   
@@ -96,6 +95,7 @@ input:focus, textarea:focus,input:hover, textarea:hover {
 }
 
 #submit{
+
   background-color:white;
 }
 #submit:hover{
